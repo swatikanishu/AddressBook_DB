@@ -1,0 +1,7 @@
+mysql> SELECT * FROM addressbook_details WHERE city = 'Lucknow' or state = 'UttarPradesh';
++-----------+----------+------------+---------+--------------+--------+--------------+------------------+
+| firstName | lastName | address    | city    | state        | zip    | phone_number | email_address    |
++-----------+----------+------------+---------+--------------+--------+--------------+------------------+
+| Saurabh   | Singh    | Gomtinagar | Lucknow | UttarPradesh | 226010 | 945667777    | surabh@gmail.com |
+| Saurabh   | Singh    | Gomtinagar | Lucknow | UttarPradesh | 226010 | 945667777    | surabh@gmail.com |
++-----------+----------+-----
