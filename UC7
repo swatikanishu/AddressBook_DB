@@ -1,0 +1,8 @@
+mysql>  select state ,COUNT(firstName) from addressbook_details group by state;
++--------------+------------------+
+| state        | COUNT(firstName) |
++--------------+------------------+
+| UttarPradesh |                2 |
++--------------+------------------+
+1 row in set (0.00 sec)
+
